@@ -1,5 +1,5 @@
 /* General */
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -7,4 +7,69 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 75%;
+  margin: auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /General */
+
+/* intestazione */
+
+.big{
+  background-color: #F4F9FE;
+  line-height: 50px;
+  border-bottom: 1px solid #32495A;
+}
+
+.big li{
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lang{
+  float:left;
+}
+
+.big li{
+  padding: 15px 0;
+  padding-left: 5px;
+}
+
+.fa-angle-down{
+  border-right: 1px solid #32495A;
+  padding-right: 10px;
+}
+
+.login{
+  float:right;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  /* min-width: 80px; */
+  text-align: center;
+  line-height: initial;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-bordered {
+  border: 1px solid #FE7859;
+  color: #FE7859;
+}
+
+.btn-orange{
+  background-color: #FE7859;
 }
