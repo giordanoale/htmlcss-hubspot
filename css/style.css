@@ -19,10 +19,16 @@ body{
   display: block;
   clear: both;
 }
+
+.fa,.fa-angle-down{
+  font-size: 20px;
+  margin-left: 5px;
+}
 /* /General */
 
 /* intestazione */
 
+/* barra login e lingua */
 .big{
   background-color: #F4F9FE;
   line-height: 50px;
@@ -33,18 +39,15 @@ body{
   list-style: none;
   display: inline-block;
   vertical-align: middle;
+  padding: 15px 0;
+  padding-left: 5px;
 }
 
 .lang{
   float:left;
 }
 
-.big li{
-  padding: 15px 0;
-  padding-left: 5px;
-}
-
-.fa-angle-down{
+.lang-arrow{
   border-right: 1px solid #32495A;
   padding-right: 10px;
 }
@@ -53,12 +56,19 @@ body{
   float:right;
 }
 
+.login li{
+  margin-left: 10px;
+}
+
+#lens{
+  color: #0a97fc;
+}
+
 .btn {
   display: inline-block;
   color: white;
   border-radius: 5px;
   padding: 6px 10px;
-  /* min-width: 80px; */
   text-align: center;
   line-height: initial;
   text-decoration: none;
@@ -73,3 +83,23 @@ body{
 .btn-orange{
   background-color: #FE7859;
 }
+/* /barra login e lingua */
+
+/* barra di navigazione */
+.main-nav{
+  line-height: 70px;
+}
+
+.main-nav img{
+  float:left;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.main-nav li{
+  float: right;
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* /barra di navigazione */
