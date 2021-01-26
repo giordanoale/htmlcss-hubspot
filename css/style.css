@@ -7,6 +7,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #32495A;
 }
 
 .container{
@@ -26,8 +27,21 @@ body{
 }
 /* /General */
 
-/* intestazione */
+/* typo */
+p{
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 25px;
+}
 
+h1{
+  font-size: 40px;
+}
+
+.orange-check{
+  color: #FE7859;
+  margin-right: 10px;
+}
 /* barra login e lingua */
 .big{
   background-color: #F4F9FE;
@@ -105,7 +119,7 @@ body{
 
 /* hero */
 .hero{
-  height: 720px;
+  height: 694px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: top right;
@@ -115,18 +129,8 @@ body{
 
 .minihero{
   width: 50%;
-  color: #32495A;
+  /* color: #32495A; */
   padding-top: 70px;
-}
-
-.minihero h1{
-  font-size: 40px;
-}
-
-.minihero p{
-  margin: 20px 0;
-  font-size: 14px;
-  line-height: 25px;
 }
 
 .minihero a{
@@ -147,5 +151,86 @@ body{
   position: absolute;
   border-top: 3px solid #32495A;
   border-bottom: 3px solid #32495A;
-  bottom: 26px;
+  bottom: 0px;
 }
+/* /hero */
+
+/* sezione features */
+.features{
+  background-color: #F4F9FE;
+}
+
+.avengers{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.avengers img{
+  height: 150px;
+
+}
+
+.crm{
+  margin-top: 40px;
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 30px;
+}
+
+.crm-image{
+  float: left;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.crm-image img{
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.features a{
+  font-size: 10px;
+  height: 35px;
+  width: 120px;
+  padding: 12px;
+}
+
+.crm-text{
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.crm-text h4{
+  display: inline-block;
+}
+
+.crm-text p{
+  padding-right: 50px;
+}
+
+.crm-text hr{
+  display: inline-block;
+  width: 450px;
+  vertical-align: middle;
+  margin-left: 36px;
+  border: 1px solid #32495A;
+}
+
+.crm-text li{
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+}
+
+
+
+/* /sezione features */
