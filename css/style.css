@@ -69,7 +69,6 @@ body{
   color: white;
   border-radius: 5px;
   padding: 6px 10px;
-  text-align: center;
   line-height: initial;
   text-decoration: none;
   font-size: 14px;
@@ -103,3 +102,50 @@ body{
   margin-left: 20px;
 }
 /* /barra di navigazione */
+
+/* hero */
+.hero{
+  height: 720px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: #FFF4EF;
+  position: relative;
+}
+
+.minihero{
+  width: 50%;
+  color: #32495A;
+  padding-top: 70px;
+}
+
+.minihero h1{
+  font-size: 40px;
+}
+
+.minihero p{
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.minihero a{
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  padding-top: 16px;
+}
+
+#small{
+  font-size: 10px;
+}
+
+.interline{
+  background-color: #B0EBE4;
+  height: 83px;
+  width: 100%;
+  position: absolute;
+  border-top: 3px solid #32495A;
+  border-bottom: 3px solid #32495A;
+  bottom: 26px;
+}
