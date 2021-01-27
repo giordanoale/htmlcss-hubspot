@@ -329,7 +329,6 @@ h1{
 
 /* community board */
 .main-community{
-  height: 800px;
   margin-top: 50px;
 }
 
@@ -360,3 +359,43 @@ h1{
   width: calc(25% - 4px);
   padding: 10px;
 }
+
+.growing{
+  margin-top: 40px;
+}
+
+.growing-text{
+  float: left;
+  width: 40%;
+}
+
+.growing-text h3{
+  font-size: 26px;
+}
+
+.growing-text p{
+  padding: 20px 0;
+}
+
+.growing-text a{
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  padding-top: 19px;
+  font-size: 12px;
+}
+
+.growing-text .small{
+  font-size: 10px;
+}
+
+.growing-image{
+  float: left;
+  width: 60%;
+}
+
+.growing-image img{
+  height: 315px;
+  float: right;
+}
+/* /community board */
