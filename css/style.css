@@ -144,7 +144,8 @@ h1{
   font-size: 10px;
 }
 
-.interline{
+.hero::after{
+  content: "";
   background-color: #B0EBE4;
   height: 83px;
   width: 100%;
