@@ -399,3 +399,74 @@ h1{
   float: right;
 }
 /* /community board */
+
+/* piè di pagina */
+footer{
+  background-color: #32495A;
+}
+
+.foot-col{
+  float: left;
+  width: 25%;
+  color: #DBDEE0;
+  margin: 40px 0;
+}
+
+.foot-col .first-line{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.foot-col li{
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.foot-col a{
+  background-color: #DBDEE0;
+  color: #32495A;
+  font-size: 10px;
+  height: 30px;
+  padding: 9px;
+}
+
+.social-links{
+  margin-top: 15px;
+}
+
+.social-links i{
+  margin-right: 15px;
+}
+
+.underline{
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  color: #DBDEE0;
+  padding-bottom: 20px;
+}
+
+.underline span{
+  padding: 0 10px;
+}
+
+.last-line{
+  margin-top: 30px;
+  color: #DBDEE0;
+}
+
+.last-col-left{
+  float: left;
+}
+
+.last-col-right{
+  float: right;
+}
+
+.last-col-right li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
