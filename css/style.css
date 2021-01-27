@@ -326,3 +326,37 @@ h1{
   padding-bottom: 50px;
 }
 /* /sezione awards */
+
+/* community board */
+.main-community{
+  height: 800px;
+  margin-top: 50px;
+}
+
+.col-customer{
+  float: left;
+  width: 30%;
+  padding-left: 75px;
+  padding-right: 30px;
+}
+
+.col-customer h3{
+  font-size: 34px;
+}
+
+.col-customer span{
+  font-weight: bold;
+}
+
+.col-logos{
+  float: right;
+  width: 70%;
+  padding-left: 130px;
+  padding-right: 80px;
+}
+
+.col-logos img{
+  vertical-align: middle;
+  width: calc(25% - 4px);
+  padding: 10px;
+}
